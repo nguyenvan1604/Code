@@ -9,7 +9,7 @@ typedef struct StackNode
 
 typedef struct Stack
 {
-    struct StackNode *top;
+    stackNode *top;
 } stack;
 
 stack *stackInit()
